@@ -1,33 +1,39 @@
-// import { AppRegistry } from 'react-native';
-// import App from './App';
-// AppRegistry.registerComponent('app2', () => App);
-
-///////////////////////
-
 //Imports
 import React from 'react';
-import { Text , AppRegistry, View, Button } from 'react-native';
+import {Text, AppRegistry, View, Image} from 'react-native';
 
 //Formatações
 const Estilos = {
     principal: {
        paddingTop: 40 
     },
+    imagem: {
+        justifyContent: 'flex-start',
+        paddingTop: 5,
+        paddingBottom: 5
+    },
+    texto: {
+        backgroundColor: '#fff'
+    }
 };
 
 //Criar o componente
 const App = () => {
 
-    const {  } = Estilos;
+    const {principal, imagem, texto} = Estilos;
 
-    return( 
-        // <View style={ principal }>
-        //     <Text style={ topo }>Topo</Text>
-        //     <Text style={ conteudo }>Conteúdo</Text>
-        //     <Text style={  rodape }>Rodapé</Text>
-        // </View>
-        <View style={ principal }>
+    return(
+        <View style={principal}>
 
+           {/* Relativo */}
+           {/* <Image source={require('./img/uvas.png')} /> */}
+           {/* Absoluto */}
+           {/* <Image source={ { uri: 'https://facebook.github.io/react/img/logo_og.png'} }
+                   style={ { width: 100, height: 100} } /> */}
+
+            <Image style={imagem} source={require('./img/uvas.png')} >
+                   <Text style={texto} >Legenda para foto</Text>
+            </Image>       
         </View>
         
     );
