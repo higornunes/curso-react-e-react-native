@@ -30,6 +30,88 @@ app2/app.json
 app2/node_modules
 
 #app3
+app3/__tests__/
+app3/.babelrc
+app3/.buckconfig
+app3/.flowconfig
+app3/.gitattributes
+app3/npm-debug.log
+app3/.watchmanconfig
+app3/android/
+app3/ios/
+app3/app.json
+app3/node_modules
+
+#app4
+app4/__tests__/
+app4/.babelrc
+app4/.buckconfig
+app4/.flowconfig
+app4/.gitattributes
+app4/npm-debug.log
+app4/.watchmanconfig
+app4/android/
+app4/ios/
+app4/app.json
+app4/node_modules
+
+#app5
+
+#app6
+
+#app7
 
 #===================================
+# OSX
+#
+.DS_Store
 
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
