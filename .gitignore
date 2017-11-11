@@ -2,6 +2,8 @@
 Vagrantfile
 approcketseat/
 android-react-native/
+.vscode
+npm-debug.log
 
 #app1
 app1/__tests__/
@@ -30,6 +32,29 @@ app2/app.json
 app2/node_modules
 
 #app3
+app3/__tests__/
+app3/.babelrc
+app3/.buckconfig
+app3/.flowconfig
+app3/.gitattributes
+app3/npm-debug.log
+app3/.watchmanconfig
+app3/android/
+app3/ios/
+app3/app.json
+app3/node_modules
 
+#app3
+app4/__tests__/
+app4/.babelrc
+app4/.buckconfig
+app4/.flowconfig
+app4/.gitattributes
+app4/npm-debug.log
+app4/.watchmanconfig
+app4/android/
+app4/ios/
+app4/app.json
+app4/node_modules
 #===================================
 
