@@ -44,7 +44,7 @@ app3/ios/
 app3/app.json
 app3/node_modules
 
-#app3
+#app4
 app4/__tests__/
 app4/.babelrc
 app4/.buckconfig
@@ -56,5 +56,18 @@ app4/android/
 app4/ios/
 app4/app.json
 app4/node_modules
+
+#app5
+app5/__tests__/
+app5/.babelrc
+app5/.buckconfig
+app5/.flowconfig
+app5/.gitattributes
+app5/npm-debug.log
+app5/.watchmanconfig
+app5/android/
+app5/ios/
+app5/app.json
+app5/node_modules
 #===================================
 
