@@ -1,0 +1,45 @@
+█ [ /media/DADOS/Mega/Workspace/react-native/curso-react-e-redux/app5 ] npm start
+
+> app5@0.0.1 start /media/DADOS/Mega/Workspace/react-native/curso-react-e-redux/app5
+> node node_modules/react-native/local-cli/cli.js start
+
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './module_map'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at _load_module_map (/media/DADOS/Mega/Workspace/react-native/curso-react-e-redux/app5/node_modules/jest-haste-map/build/index.js:36:74)
+    at Object.<anonymous> (/media/DADOS/Mega/Workspace/react-native/curso-react-e-redux/app5/node_modules/jest-haste-map/build/index.js:866:38)
+    at Module._compile (module.js:570:32)
+    at Module._extensions..js (module.js:579:10)
+    at Object.require.extensions.(anonymous function) [as .js] (/media/DADOS/Mega/Workspace/react-native/curso-react-e-redux/app5/node_modules/babel-register/lib/node.js:152:7)
+    at Module.load (module.js:487:32)
+
+npm ERR! Linux 4.10.0-38-generic
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v6.11.4
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! app5@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the app5@0.0.1 start script 'node node_modules/react-native/local-cli/cli.js start'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the app5 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node node_modules/react-native/local-cli/cli.js start
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs app5
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls app5
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /media/DADOS/Mega/Workspace/react-native/curso-react-e-redux/app5/npm-debug.log
+
+ 

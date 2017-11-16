@@ -95,5 +95,18 @@ app7/android/
 app7/ios/
 app7/app.json
 app7/node_modules
+
+#app8
+app8/__tests__/
+app8/.babelrc
+app8/.buckconfig
+app8/.flowconfig
+app8/.gitattributes
+app8/npm-debug.log
+app8/.watchmanconfig
+app8/android/
+app8/ios/
+app8/app.json
+app8/node_modules
 #===================================
 
