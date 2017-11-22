@@ -108,5 +108,19 @@ app8/android/
 app8/ios/
 app8/app.json
 app8/node_modules
+
+#app9
+app9/__tests__/
+app9/.babelrc
+app9/.buckconfig
+app9/.flowconfig
+app9/.gitattributes
+app9/npm-debug.log
+app9/.watchmanconfig
+app9/android/
+app9/ios/
+app9/app.json
+app9/node_modules
+
 #===================================
 

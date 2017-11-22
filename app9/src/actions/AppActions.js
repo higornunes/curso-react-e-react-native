@@ -18,13 +18,14 @@ export const modificaAdicionaContatoEmail = texto => {
     type: MODIFICA_ADICIONA_CONTATO_EMAIL,
     payload: texto
   };
-};
+};gitk
 
 export const adicionaContato = email => {
 
   return dispatch => {
     const emailB64 = b64.encode(email);
 
+    //teste git
     firebase.database().ref(`/contatos/${emailB64}`)
       .once('value')
       .then(snapshot => {
