@@ -1,4 +1,3 @@
-/* @flow */
 import firebase from 'firebase';
 import { Actions } from 'react-native-router-flux';
 import b64 from 'base-64';
@@ -30,7 +29,7 @@ export const modificaNome = texto => ({
   });
 
 export const cadastraUsuario = ({ nome, email, senha }) => {
-  return dispatch => ({
+  return dispatch => {
   dispatch({ type: CADASTRO_EM_ANDAMENTO });
 
   firebase
@@ -43,7 +42,7 @@ export const cadastraUsuario = ({ nome, email, senha }) => {
         .then(value => cadastraUsuarioSucesso(dispatch));
     })
     .catch(erro => cadastraUsuarioErro(erro, dispatch));
-  });
+  };
 };
 
   const cadastraUsuarioSucesso = (dispatch) => {
@@ -56,6 +55,9 @@ export const cadastraUsuario = ({ nome, email, senha }) => {
   };
 
 export const autenticarUsuario = ({ email, senha }) => {
+  var email = email;
+  console.log(email);
+    debugger;
   return dispatch => {
     dispatch(
       { type: LOGIN_EM_ANDAMENTO }
