@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+//@flow
+// import React, { Component } from 'react';
 import { View, Text, ListView, TouchableHighlight } from 'react-native';
 import { connect } from 'react-redux';
 import _ from 'lodash';
@@ -19,19 +20,19 @@ class Contatos extends Component {
 
   criaFonteDeDados(contatos) {
     const ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
-    this.fonteDeDados = ds.cloneWithRows(contatos); 
+    this.fonteDeDados = ds.cloneWithRows(contatos);
   }
 
   renderRow(contato) {
     return (
       <TouchableHighlight
         onPress={() => Actions.conversa(
-            { 
+          {
               title: contato.nome,
-              contatoNome: contato.nome, 
-              contatoEmail: contato.email 
-            }
-          )
+              contatoNome: contato.nome,
+              contatoEmail: contato.email
+          }
+        )
         }
       >
         <View style={{ flex: 1, padding: 20, borderBottomWidth: 1, borderColor: '#ccc' }} >

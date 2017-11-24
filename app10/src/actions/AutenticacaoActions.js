@@ -1,5 +1,4 @@
-/* @flow */
-import firebase from 'firebase';
+import firebase from "firebase";
 import { Actions } from 'react-native-router-flux';
 import b64 from 'base-64';
 import {
@@ -32,8 +31,7 @@ export const modificaNome = texto => ({
 export const cadastraUsuario = ({ nome, email, senha }) => {
   return dispatch => ({
   dispatch({ type: CADASTRO_EM_ANDAMENTO });
-
-  firebase
+   firebase
     .auth()
     .createUserWithEmailAndPassword(email, senha)
     .then(user => {

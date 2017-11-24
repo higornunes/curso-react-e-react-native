@@ -26,7 +26,7 @@ export const adicionaContato = email => {
   return dispatch => {
     const emailB64 = b64.encode(email);
 
-    //teste git
+    //teste gitttt
     firebase.database().ref(`/contatos/${emailB64}`)
       .once('value')
       .then(snapshot => {
