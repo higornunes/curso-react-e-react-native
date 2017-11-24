@@ -70,6 +70,8 @@ app5/ios/
 app5/app.json
 app5/node_modules
 
+app5-bugou/*
+
 #app6
 app6/__tests__/
 app6/.babelrc
@@ -109,18 +111,20 @@ app8/ios/
 app8/app.json
 app8/node_modules
 
-#app9
-app9/__tests__/
-app9/.babelrc
-app9/.buckconfig
-app9/.flowconfig
-app9/.gitattributes
-app9/npm-debug.log
-app9/.watchmanconfig
-app9/android/
-app9/ios/
-app9/app.json
-app9/node_modules
+app9-bugou/*
+
+#app10
+app10/__tests__/
+app10/.babelrc
+app10/.buckconfig
+app10/.flowconfig
+app10/.gitattributes
+app10/npm-debug.log
+app10/.watchmanconfig
+app10/android/
+app10/ios/
+app10/app.json
+app10/node_modules
+
 
 #===================================
-
